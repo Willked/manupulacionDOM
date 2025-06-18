@@ -1,0 +1,64 @@
+/* Estilos Generales */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: url(imagenes/wallpaper2.jpg) no-repeat center center/ cover; 
+}
+
+
+#contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  width: 80vw;
+  max-width: 600px;
+  /* background-color: white;
+  border: 4px solid black; */
+}
+
+#titulo {
+  width: 100%;
+  font-size: 3rem;
+  color: #ff46ac;
+  margin-bottom: 20px;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+  width: 100%;
+  height: 100%;
+}
+
+.competencia {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  margin: 15px 0;
+}
+
+.fondo-amarillo {
+  background-color: #cfd825;
+}
+
+.fondo-verde {
+  background-color: #b8e360;
+}
